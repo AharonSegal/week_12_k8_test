@@ -17,7 +17,7 @@ coordinates-k8s/
 ├── api-response.png
 └── cluster-ui.png
 
-
+git branches
 main (הסרגה השירפל - היצקילפא תדבוע תיפוס)
 ├── feature/dockerfile
 ├── feature/postgres-statefulset
