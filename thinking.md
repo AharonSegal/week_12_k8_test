@@ -18,9 +18,26 @@ coordinates-k8s/
 └── cluster-ui.png
 
 
-main (הסרגה השירפל - היצקילפא תדבוע תיפוס)
+main
 ├── feature/dockerfile
 ├── feature/postgres-statefulset
 ├── feature/postgres-service
 ├── feature/api-deployment
 └── feature/api-service
+
+git checkout feature/dockerfile
+git checkout feature/postgres-statefulset
+git checkout feature/postgres-service
+git checkout feature/api-deployment
+git checkout feature/api-service
+
+git add .
+git commit -m"docker build"
+git push 
+
+
+docker build -t aharonsegal/coordinates_api:v1 .
+
+# image name 
+aharonsegal/coordinates_api:v1
+
