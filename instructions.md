@@ -145,6 +145,6 @@ docker build -t coordinates-api:v1 .
 
 Push to your registry (Docker Hub example):
 ```bash
-docker push yourusername/coordinates-api:v1
+docker push aharonsegal/coordinates_api:v1
 ```
 

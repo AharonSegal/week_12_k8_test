@@ -9,8 +9,8 @@ coordinates-k8s/
 ├── k8s/
 │ ├── postgres-statefulset.yaml
 │ ├── postgres-service.yaml
-│ ├── api-deployment.yaml
-│ └── api-service.yaml
+│ ├── coordinates-apiloyment.yaml
+│ └── coordinates-api-svc.yaml
 └── screenshots/
 ├── kubectl-get-all.png
 ├── kubectl-get-pods.png
@@ -22,5 +22,5 @@ main (הסרגה השירפל - היצקילפא תדבוע תיפוס)
 ├── feature/dockerfile
 ├── feature/postgres-statefulset
 ├── feature/postgres-service
-├── feature/api-deployment
-└── feature/api-service
+├── feature/coordinates-apiloyment
+└── feature/coordinates-api-svc
