@@ -24,3 +24,14 @@ main (הסרגה השירפל - היצקילפא תדבוע תיפוס)
 ├── feature/postgres-service
 ├── feature/api-deployment
 └── feature/api-service
+
+git checkout -b feature/dockerfile
+git checkout -b feature/postgres-statefulset
+git checkout -b feature/postgres-service
+git checkout -b feature/api-deployment
+git checkout -b feature/api-deployment
+git checkout -b feature/api-service
+
+git add .
+git commit -m"init"
+git push -u origin feature/postgres-statefulset
