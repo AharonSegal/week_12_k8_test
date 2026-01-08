@@ -25,10 +25,10 @@ spec:
           name: http
         
         env:
-        - name: post_HOST
-          value: "postgres-0.coordinates-api-svc"
+        - name: POSTGRES_HOST
+          value: "postgres-0.postgres-svc"
         
-        - name: post_PORT
+        - name: POSTGRES_PORT
           value: "5432"
         
         - name: POSTGRES_DB

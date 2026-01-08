@@ -10,6 +10,6 @@ spec:
   
   ports:
   - port: 5432
-    targetPort: 8000
+    targetPort: 5432 
     name: post
     protocol: TCP

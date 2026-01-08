@@ -24,6 +24,9 @@ spec:
           name: post
         
         env:
+        - name: POSTGRES_HOST       
+          value: postgres-svc 
+
         - name: POSTGRES_DB
           value: "coordinates_db"
         
