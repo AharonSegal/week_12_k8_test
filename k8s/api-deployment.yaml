@@ -5,7 +5,7 @@ metadata:
   labels:
     app: api
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: api
@@ -16,7 +16,7 @@ spec:
         app: api
     spec:
       containers:
-      - name: api
+      - name: coordinates-api
 
         image: aharonsegal/coordinates_api:v2
         
@@ -32,13 +32,13 @@ spec:
           value: "5432"
         
         - name: POSTGRES_DB
-          value: coordinates_db
+          value: "coordinates_db"
         
         - name: POSTGRES_USER
-          value: postgres
+          value: "postgres"
         
         - name: POSTGRES_PASSWORD
-          value: postgres
+          value: "postgres"
         
         resources:
           requests:

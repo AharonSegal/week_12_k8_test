@@ -42,7 +42,7 @@ git checkout feature/coordinates-apiloyment
 git checkout feature/coordinates-api-svc
 
 git add .
-git commit -m"docker build"
+git commit -m"yamls"
 git push 
 
 
@@ -53,7 +53,7 @@ docker push aharonsegal/coordinates_api:v2
 # image name 
 aharonsegal/coordinates_api:v1
 
-git merge feature/dockerfile
+git merge feature/postgres-statefulset
 
 minikube start
 kubectl get nodes
@@ -68,7 +68,7 @@ kubectl describe service
 kubectl get svc        
 kubectl get deploy    
 
-minikube service 
+minikube service api-service
 
 kubectl delete pods --all
 
